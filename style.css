@@ -7,7 +7,7 @@ body{
 { margin: 0; padding: 0; }
 
 html { 
-        background: url('images/image.jpg') no-repeat center top fixed; 
+        background: url('images/background1000.jpg') no-repeat center top fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -25,4 +25,10 @@ html {
     right:0;
     margin-left:auto;
     margin-right:auto;
+}
+
+.logo{
+    margin-top: 200px;
+    width: 400px; 
+    height: 400px; 
 }
