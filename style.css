@@ -21,6 +21,11 @@ html {
     max-height: 100%;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .centered{
     position:absolute;
     left:0;
@@ -29,11 +34,35 @@ html {
     margin-right:auto;
 }
 
-@media screen and (orientation:portrait) {
+
+@media screen and (orientation:portrait){
     .logo{
         margin-top: 200px;
         width: 400px; 
         height: 400px; 
+    }
+
+    .link{
+        width: 213px;
+        color: white;
+        line-height: 20px;
+        font-size: 20px;
+    }
+
+    .ig{
+        margin-top: 630px;
+    }
+
+    .fb{
+        margin-top: 660px;
+    }
+
+    .icon{
+        vertical-align: middle;
+        width: 17px;
+        height: 17px;
+        padding-bottom: 2px;
+        padding-right: 1px;
     }
 }
 
@@ -42,6 +71,29 @@ html {
         margin-top: 100px;
         width: 200px; 
         height: 200px; 
+    }
+
+    .link{
+        width: 213px;
+        color: white;
+        line-height: 20px;
+        font-size: 20px;
+    }
+
+    .ig{
+        margin-top: 330px;
+    }
+
+    .fb{
+        margin-top: 360px;
+    }
+
+    .icon{
+        vertical-align: middle;
+        width: 17px;
+        height: 17px;
+        padding-bottom: 2px;
+        padding-right: 1px;
     }
 }
 
