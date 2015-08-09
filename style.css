@@ -100,11 +100,11 @@ a {
 
 @keyframes "slidein" {
  25% {
-    -webkit-transform: scale(1.6) translate3d(-400px, 0px, 0px);
-   	-moz-transform: scale(1.6) translate3d(-400px, 0px, 0px);
-   	-o-transform: scale(1.6) translate3d(-400px, 0px, 0px);
-   	-ms-transform: scale(1.6) translate3d(-400px, 0px, 0px);
-   	transform: scale(1.6) translate3d(-400px, 0px, 0px);
+    -webkit-transform: scale(1.6) translate3d(-200px, 0px, 0px);
+   	-moz-transform: scale(1.6) translate3d(-200px, 0px, 0px);
+   	-o-transform: scale(1.6) translate3d(-200px, 0px, 0px);
+   	-ms-transform: scale(1.6) translate3d(-200px, 0px, 0px);
+   	transform: scale(1.6) translate3d(-200px, 0px, 0px);
  }
  50% {
     -webkit-transform: scale(1) translate3d(0px, 0px, 0px);
@@ -114,75 +114,75 @@ a {
    	transform: scale(1) translate3d(0px, 0px, 0px);
  }
  75% {
-    -webkit-transform: scale(1.6) translate3d(+400px, 0px, 0px);
-   	-moz-transform: scale(1.6) translate3d(+400px, 0px, 0px);
-   	-o-transform: scale(1.6) translate3d(+400px, 0px, 0px);
-   	-ms-transform: scale(1.6) translate3d(+400px, 0px, 0px);
-   	transform: scale(1.6) translate3d(+400px, 0px, 0px);
+    -webkit-transform: scale(1.6) translate3d(+200px, 0px, 0px);
+   	-moz-transform: scale(1.6) translate3d(+200px, 0px, 0px);
+   	-o-transform: scale(1.6) translate3d(+200px, 0px, 0px);
+   	-ms-transform: scale(1.6) translate3d(+200px, 0px, 0px);
+   	transform: scale(1.6) translate3d(+200px, 0px, 0px);
  }
 
 }
 
 @-moz-keyframes slidein {
  25% {
-   -moz-transform: scale(1.6) translate3d(-400px, 0px, 0px);
-   transform: scale(1.6) translate3d(-400px, 0px, 0px);
+   -moz-transform: scale(1.6) translate3d(-200px, 0px, 0px);
+   transform: scale(1.6) translate3d(-200px, 0px, 0px);
  }
  50% {
    -moz-transform: scale(1) translate3d(0px, 0px, 0px);
    transform: scale(1) translate3d(0px, 0px, 0px);
  }
  75% {
-   -moz-transform: scale(1.6) translate3d(+400px, 0px, 0px);
-   transform: scale(1.6) translate3d(+400px, 0px, 0px);
+   -moz-transform: scale(1.6) translate3d(+200px, 0px, 0px);
+   transform: scale(1.6) translate3d(+200px, 0px, 0px);
  }
 
 }
 
 @-webkit-keyframes "slidein" {
  25% {
-   -webkit-transform: scale(1.6) translate3d(-400px, 0px, 0px);
-   transform: scale(1.6) translate3d(-400px, 0px, 0px);
+   -webkit-transform: scale(1.6) translate3d(-200px, 0px, 0px);
+   transform: scale(1.6) translate3d(-200px, 0px, 0px);
  }
  50% {
    -webkit-transform: scale(1) translate3d(0px, 0px, 0px);
    transform: scale(1) translate3d(0px, 0px, 0px);
  }
  75% {
-   -webkit-transform: scale(1.6) translate3d(+400px, 0px, 0px);
-   transform: scale(1.6) translate3d(+400px, 0px, 0px);
+   -webkit-transform: scale(1.6) translate3d(+200px, 0px, 0px);
+   transform: scale(1.6) translate3d(+200px, 0px, 0px);
  }
 
 }
 
 @-ms-keyframes "slidein" {
  25% {
-   -ms-transform: scale(1.6) translate3d(-400px, 0px, 0px);
-   transform: scale(1.6) translate3d(-400px, 0px, 0px);
+   -ms-transform: scale(1.6) translate3d(-200px, 0px, 0px);
+   transform: scale(1.6) translate3d(-200px, 0px, 0px);
  }
  50% {
    -ms-transform: scale(1) translate3d(0px, 0px, 0px);
    transform: scale(1) translate3d(0px, 0px, 0px);
  }
  75% {
-   -ms-transform: scale(1.6) translate3d(+400px, 0px, 0px);
-   transform: scale(1.6) translate3d(+400px, 0px, 0px);
+   -ms-transform: scale(1.6) translate3d(+200px, 0px, 0px);
+   transform: scale(1.6) translate3d(+200px, 0px, 0px);
  }
 
 }
 
 @-o-keyframes "slidein" {
  25% {
-   -o-transform: scale(1.6) translate3d(-400px, 0px, 0px);
-   transform: scale(1.6) translate3d(-400px, 0px, 0px);
+   -o-transform: scale(1.6) translate3d(-200px, 0px, 0px);
+   transform: scale(1.6) translate3d(-200px, 0px, 0px);
  }
  50% {
    -o-transform: scale(1) translate3d(0px, 0px, 0px);
    transform: scale(1) translate3d(0px, 0px, 0px);
  }
  75% {
-   -o-transform: scale(1.6) translate3d(+400px, 0px, 0px);
-   transform: scale(1.6) translate3d(+400px, 0px, 0px);
+   -o-transform: scale(1.6) translate3d(+200px, 0px, 0px);
+   transform: scale(1.6) translate3d(+200px, 0px, 0px);
  }
 
 }
