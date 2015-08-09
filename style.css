@@ -28,22 +28,6 @@ a {
     margin-right:auto;
 }
 
-.logo{
-    top: 24%;
-    height: 30%; 
-}
-
-.follow{
-    top: 59%;
-    height: 3%; 
-}
-
-.link{
-    position: absolute;
-    top: 65%;
-    height: 7%;
-}
-
 .left{
     left: 0;
     right: 50%;
@@ -98,92 +82,210 @@ a {
 	-webkit-animation-direction: alternate;
 }
 
-@keyframes "slidein" {
- 25% {
-    -webkit-transform: scale(1.6) translate3d(-200px, 0px, 0px);
-   	-moz-transform: scale(1.6) translate3d(-200px, 0px, 0px);
-   	-o-transform: scale(1.6) translate3d(-200px, 0px, 0px);
-   	-ms-transform: scale(1.6) translate3d(-200px, 0px, 0px);
-   	transform: scale(1.6) translate3d(-200px, 0px, 0px);
- }
- 50% {
-    -webkit-transform: scale(1) translate3d(0px, 0px, 0px);
-   	-moz-transform: scale(1) translate3d(0px, 0px, 0px);
-   	-o-transform: scale(1) translate3d(0px, 0px, 0px);
-   	-ms-transform: scale(1) translate3d(0px, 0px, 0px);
-   	transform: scale(1) translate3d(0px, 0px, 0px);
- }
- 75% {
-    -webkit-transform: scale(1.6) translate3d(+200px, 0px, 0px);
-   	-moz-transform: scale(1.6) translate3d(+200px, 0px, 0px);
-   	-o-transform: scale(1.6) translate3d(+200px, 0px, 0px);
-   	-ms-transform: scale(1.6) translate3d(+200px, 0px, 0px);
-   	transform: scale(1.6) translate3d(+200px, 0px, 0px);
- }
 
+@media screen and (orientation:portrait) {
+
+    .logo{
+        top: 24%;
+        height: 30%; 
+    }
+
+    .follow{
+        top: 59%;
+        height: 3%; 
+    }
+
+
+    .link{
+        position: absolute;
+        top: 65%;
+        height: 7%;
+    }
+
+    @keyframes "slidein" {
+        25% {
+            -webkit-transform: scale(1.6) translate3d(-400px, 0px, 0px);
+   	        -moz-transform: scale(1.6) translate3d(-400px, 0px, 0px);
+   	        -o-transform: scale(1.6) translate3d(-400px, 0px, 0px);
+   	        -ms-transform: scale(1.6) translate3d(-400px, 0px, 0px);
+   	        transform: scale(1.6) translate3d(-400px, 0px, 0px);
+        }
+        50% {
+            -webkit-transform: scale(1) translate3d(0px, 0px, 0px);
+   	        -moz-transform: scale(1) translate3d(0px, 0px, 0px);
+   	        -o-transform: scale(1) translate3d(0px, 0px, 0px);
+   	        -ms-transform: scale(1) translate3d(0px, 0px, 0px);
+   	        transform: scale(1) translate3d(0px, 0px, 0px);
+        }
+        75% {
+            -webkit-transform: scale(1.6) translate3d(+400px, 0px, 0px);
+   	        -moz-transform: scale(1.6) translate3d(+400px, 0px, 0px);
+   	        -o-transform: scale(1.6) translate3d(+400px, 0px, 0px);
+   	        -ms-transform: scale(1.6) translate3d(+400px, 0px, 0px);
+   	        transform: scale(1.6) translate3d(+400px, 0px, 0px);
+        }
+    }
+    
+    @-moz-keyframes slidein {
+        25% {
+            -moz-transform: scale(1.6) translate3d(-400px, 0px, 0px);
+            transform: scale(1.6) translate3d(-400px, 0px, 0px);
+        }
+        50% {
+            -moz-transform: scale(1) translate3d(0px, 0px, 0px);
+            transform: scale(1) translate3d(0px, 0px, 0px);
+        }
+        75% {
+            -moz-transform: scale(1.6) translate3d(+400px, 0px, 0px);
+            transform: scale(1.6) translate3d(+400px, 0px, 0px);
+        }
+    }
+
+    @-webkit-keyframes "slidein" {
+        25% {
+            -webkit-transform: scale(1.6) translate3d(-400px, 0px, 0px);
+            transform: scale(1.6) translate3d(-400px, 0px, 0px);
+        }
+        50% {
+            -webkit-transform: scale(1) translate3d(0px, 0px, 0px);
+            transform: scale(1) translate3d(0px, 0px, 0px);
+        }
+        75% {
+            -webkit-transform: scale(1.6) translate3d(+400px, 0px, 0px);
+            transform: scale(1.6) translate3d(+400px, 0px, 0px);
+        }
+    }
+
+    @-ms-keyframes "slidein" {
+        25% {
+            -ms-transform: scale(1.6) translate3d(-400px, 0px, 0px);
+            transform: scale(1.6) translate3d(-400px, 0px, 0px);
+        }
+        50% {
+            -ms-transform: scale(1) translate3d(0px, 0px, 0px);
+            transform: scale(1) translate3d(0px, 0px, 0px);
+        }
+        75% {
+            -ms-transform: scale(1.6) translate3d(+400px, 0px, 0px);
+            transform: scale(1.6) translate3d(+400px, 0px, 0px);
+        }
+    }
+
+    @-o-keyframes "slidein" {
+        25% {
+            -o-transform: scale(1.6) translate3d(-400px, 0px, 0px);
+            transform: scale(1.6) translate3d(-400px, 0px, 0px);
+        }
+        50% {
+            -o-transform: scale(1) translate3d(0px, 0px, 0px);
+            transform: scale(1) translate3d(0px, 0px, 0px);
+        }
+        75% {
+            -o-transform: scale(1.6) translate3d(+400px, 0px, 0px);
+            transform: scale(1.6) translate3d(+400px, 0px, 0px);
+        }
+    }
 }
 
-@-moz-keyframes slidein {
- 25% {
-   -moz-transform: scale(1.6) translate3d(-200px, 0px, 0px);
-   transform: scale(1.6) translate3d(-200px, 0px, 0px);
- }
- 50% {
-   -moz-transform: scale(1) translate3d(0px, 0px, 0px);
-   transform: scale(1) translate3d(0px, 0px, 0px);
- }
- 75% {
-   -moz-transform: scale(1.6) translate3d(+200px, 0px, 0px);
-   transform: scale(1.6) translate3d(+200px, 0px, 0px);
- }
+@media screen and (orientation:landscape) {
+    .logo{
+        top: 24%;
+        height: 30%; 
+    }
 
-}
+    .follow{
+        top: 59%;
+        height: 3%; 
+    }
 
-@-webkit-keyframes "slidein" {
- 25% {
-   -webkit-transform: scale(1.6) translate3d(-200px, 0px, 0px);
-   transform: scale(1.6) translate3d(-200px, 0px, 0px);
- }
- 50% {
-   -webkit-transform: scale(1) translate3d(0px, 0px, 0px);
-   transform: scale(1) translate3d(0px, 0px, 0px);
- }
- 75% {
-   -webkit-transform: scale(1.6) translate3d(+200px, 0px, 0px);
-   transform: scale(1.6) translate3d(+200px, 0px, 0px);
- }
+    .link{
+        position: absolute;
+        top: 65%;
+        height: 7%;
+    }
 
-}
+    @keyframes "slidein" {
+        25% {
+            -webkit-transform: scale(1.6);
+   	        -moz-transform: scale(1.6);
+   	        -o-transform: scale(1.6);
+   	        -ms-transform: scale(1.6);
+   	        transform: scale(1.6);
+        }
+        50% {
+            -webkit-transform: scale(1);
+   	        -moz-transform: scale(1);
+   	        -o-transform: scale(1);
+   	        -ms-transform: scale(1);
+   	        transform: scale(1);
+        }
+        75% {
+            -webkit-transform: scale(1.6);
+   	        -moz-transform: scale(1.6);
+   	        -o-transform: scale(1.6);
+   	        -ms-transform: scale(1.6);
+   	        transform: scale(1.6);
+        }
+    }
 
-@-ms-keyframes "slidein" {
- 25% {
-   -ms-transform: scale(1.6) translate3d(-200px, 0px, 0px);
-   transform: scale(1.6) translate3d(-200px, 0px, 0px);
- }
- 50% {
-   -ms-transform: scale(1) translate3d(0px, 0px, 0px);
-   transform: scale(1) translate3d(0px, 0px, 0px);
- }
- 75% {
-   -ms-transform: scale(1.6) translate3d(+200px, 0px, 0px);
-   transform: scale(1.6) translate3d(+200px, 0px, 0px);
- }
+    @-moz-keyframes slidein {
+        25% {
+            -moz-transform: scale(1.6);
+            transform: scale(1.6);
+        }
+        50% {
+            -moz-transform: scale(1);
+            transform: scale(1);
+        }
+        75% {
+            -moz-transform: scale(1.6);
+            transform: scale(1.6);
+        }
+    }
 
-}
+    @-webkit-keyframes "slidein" {
+        25% {
+            -webkit-transform: scale(1.6);
+            transform: scale(1.6);
+        }
+        50% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+        75% {
+            -webkit-transform: scale(1.6);
+            transform: scale(1.6);
+        }
+    }
 
-@-o-keyframes "slidein" {
- 25% {
-   -o-transform: scale(1.6) translate3d(-200px, 0px, 0px);
-   transform: scale(1.6) translate3d(-200px, 0px, 0px);
- }
- 50% {
-   -o-transform: scale(1) translate3d(0px, 0px, 0px);
-   transform: scale(1) translate3d(0px, 0px, 0px);
- }
- 75% {
-   -o-transform: scale(1.6) translate3d(+200px, 0px, 0px);
-   transform: scale(1.6) translate3d(+200px, 0px, 0px);
- }
+    @-ms-keyframes "slidein" {
+        25% {
+            -ms-transform: scale(1.6);
+            transform: scale(1.6);
+        }
+        50% {
+            -ms-transform: scale(1);
+            transform: scale(1);
+        }
+        75% {
+            -ms-transform: scale(1.6);
+            transform: scale(1.6);
+        }
+    }
 
+    @-o-keyframes "slidein" {
+        25% {
+            -o-transform: scale(1.6);
+            transform: scale(1.6);
+        }
+        50% {
+            -o-transform: scale(1);
+            transform: scale(1);
+        }
+        75% {
+            -o-transform: scale(1.6);
+            transform: scale(1.6);
+        }
+    }
 }
 
